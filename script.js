@@ -43,3 +43,36 @@ window.matchMedia('(min-width: 701px)').addEventListener('change', event => {
 function updateHeader() { header.classList.toggle('scrolled', window.scrollY > 10); }
 window.addEventListener('scroll', updateHeader, { passive: true });
 updateHeader();
+
+// Keep the image links usable when JavaScript or dialog support is unavailable.
+const photoDialog = document.querySelector('.photo-dialog');
+const dialogImage = document.querySelector('.photo-dialog-image');
+const dialogTitle = document.querySelector('#photo-dialog-title');
+let photoTrigger;
+let previousOverflow;
+if (photoDialog && typeof photoDialog.showModal === 'function') {
+  document.querySelectorAll('.voice-photo-link').forEach(link => {
+    link.addEventListener('click', event => {
+      if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      photoTrigger = link;
+      dialogTitle.textContent = link.dataset.photoCaption;
+      dialogImage.alt = link.querySelector('img').alt;
+      dialogImage.src = link.href;
+      previousOverflow = document.body.style.overflow;
+      photoDialog.showModal();
+      document.body.style.overflow = 'hidden';
+    });
+  });
+  photoDialog.addEventListener('click', event => {
+    if (event.target !== photoDialog) return;
+    const rect = photoDialog.getBoundingClientRect();
+    if (event.clientX < rect.left || event.clientX > rect.right ||
+        event.clientY < rect.top || event.clientY > rect.bottom) photoDialog.close();
+  });
+  photoDialog.addEventListener('close', () => {
+    document.body.style.overflow = previousOverflow;
+    dialogImage.removeAttribute('src');
+    photoTrigger?.focus({ preventScroll: true });
+  });
+}

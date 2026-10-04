@@ -1,0 +1,192 @@
+[
+  {
+    "source": "IMG_8014.JPG",
+    "width": 1024,
+    "height": 768,
+    "files": [
+      {
+        "file": "treatment-care-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 72052
+      },
+      {
+        "file": "treatment-care-1280.webp",
+        "width": 1024,
+        "height": 768,
+        "bytes": 137552
+      }
+    ]
+  },
+  {
+    "source": "IMG_8015.JPG",
+    "width": 1086,
+    "height": 816,
+    "files": [
+      {
+        "file": "treatment-movement-640.webp",
+        "width": 640,
+        "height": 481,
+        "bytes": 38900
+      },
+      {
+        "file": "treatment-movement-1280.webp",
+        "width": 1086,
+        "height": 816,
+        "bytes": 73660
+      }
+    ]
+  },
+  {
+    "source": "IMG_8016.JPG",
+    "width": 1108,
+    "height": 1478,
+    "files": [
+      {
+        "file": "voice-my-pace-640.webp",
+        "width": 640,
+        "height": 854,
+        "bytes": 68816
+      },
+      {
+        "file": "voice-my-pace-1280.webp",
+        "width": 1108,
+        "height": 1478,
+        "bytes": 211792
+      }
+    ]
+  },
+  {
+    "source": "IMG_8017.JPG",
+    "width": 1478,
+    "height": 1108,
+    "files": [
+      {
+        "file": "voice-enjoy-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 51118
+      },
+      {
+        "file": "voice-enjoy-1280.webp",
+        "width": 1280,
+        "height": 960,
+        "bytes": 207988
+      }
+    ]
+  },
+  {
+    "source": "IMG_8018.JPG",
+    "width": 1280,
+    "height": 1280,
+    "files": [
+      {
+        "file": "voice-goals-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 24176
+      },
+      {
+        "file": "voice-goals-1280.webp",
+        "width": 1280,
+        "height": 1280,
+        "bytes": 61912
+      }
+    ]
+  },
+  {
+    "source": "IMG_8019.JPG",
+    "width": 1280,
+    "height": 1280,
+    "files": [
+      {
+        "file": "voice-first-training-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 37472
+      },
+      {
+        "file": "voice-first-training-1280.webp",
+        "width": 1280,
+        "height": 1280,
+        "bytes": 93324
+      }
+    ]
+  },
+  {
+    "source": "IMG_8020.JPG",
+    "width": 1280,
+    "height": 1280,
+    "files": [
+      {
+        "file": "voice-flexibility-640.webp",
+        "width": 640,
+        "height": 640,
+        "bytes": 31260
+      },
+      {
+        "file": "voice-flexibility-1280.webp",
+        "width": 1280,
+        "height": 1280,
+        "bytes": 73324
+      }
+    ]
+  },
+  {
+    "source": "IMG_8021.JPG",
+    "width": 1108,
+    "height": 1478,
+    "files": [
+      {
+        "file": "voice-whole-body-640.webp",
+        "width": 640,
+        "height": 854,
+        "bytes": 39512
+      },
+      {
+        "file": "voice-whole-body-1280.webp",
+        "width": 1108,
+        "height": 1478,
+        "bytes": 127646
+      }
+    ]
+  },
+  {
+    "source": "IMG_8022.JPG",
+    "width": 1478,
+    "height": 1108,
+    "files": [
+      {
+        "file": "voice-learning-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 44808
+      },
+      {
+        "file": "voice-learning-1280.webp",
+        "width": 1280,
+        "height": 960,
+        "bytes": 124364
+      }
+    ]
+  },
+  {
+    "source": "IMG_8023.JPG",
+    "width": 1478,
+    "height": 1108,
+    "files": [
+      {
+        "file": "voice-light-load-640.webp",
+        "width": 640,
+        "height": 480,
+        "bytes": 48874
+      },
+      {
+        "file": "voice-light-load-1280.webp",
+        "width": 1280,
+        "height": 960,
+        "bytes": 188840
+      }
+    ]
+  }
+]
